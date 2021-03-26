@@ -11,9 +11,9 @@ import 'package:integration_test/integration_test.dart';
 
 import 'package:flutter_demo_firebase/main.dart' as app;
 
-void main() => run(_testMain);
+void main() => run();
 
-void _testMain() {
+void run() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
     // Build our app and trigger a frame.
     app.main();
